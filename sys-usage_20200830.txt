@@ -1,22 +1,22 @@
 CPU-Memory Usage
  
-top - 01:11:45 up 34 min,  1 user,  load average: 0.00, 0.05, 0.36
-Tasks: 197 total,   1 running, 196 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 20.0 us, 10.0 sy,  0.0 ni, 70.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1987.8 total,     88.3 free,   1088.9 used,    810.6 buff/cache
-MiB Swap:    448.5 total,    447.7 free,      0.8 used.    739.7 avail Mem 
+top - 01:12:24 up 35 min,  1 user,  load average: 1.25, 0.32, 0.43
+Tasks: 196 total,   1 running, 195 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.0 us,  9.5 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1987.8 total,    109.6 free,   1088.5 used,    789.6 buff/cache
+MiB Swap:    448.5 total,    447.5 free,      1.0 used.    740.3 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3524 simar     20   0   20476   3592   3140 R  22.2   0.2   0:00.06 top
-      1 root      20   0  102044  11808   8536 S   0.0   0.6   0:05.64 systemd
+   3660 simar     20   0   20476   3700   3248 R  17.6   0.2   0:00.05 top
+      1 root      20   0  102044  11808   8536 S   0.0   0.6   0:05.74 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       8 root      20   0       0      0      0 I   0.0   0.0   0:00.56 kworker+
       9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+
-     10 root      20   0       0      0      0 S   0.0   0.0   0:00.64 ksoftir+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.92 rcu_sch+
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.66 ksoftir+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:01.94 rcu_sch+
      12 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
      13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
      14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
@@ -75,8 +75,8 @@ udp6       0      0 :::45975                :::*                                
  
 Users logged-in
  
- 01:11:46 up 34 min,  1 user,  load average: 0.00, 0.05, 0.36
+ 01:12:24 up 35 min,  1 user,  load average: 1.25, 0.32, 0.43
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-simar    :0       :0               00:40   ?xdm?   3:50   0.04s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+simar    :0       :0               00:40   ?xdm?   3:54   0.04s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
  
  
