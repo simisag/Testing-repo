@@ -1,44 +1,44 @@
 CPU-Memory Usage
  
-top - 17:37:11 up 29 min,  1 user,  load average: 1.17, 0.57, 0.64
-Tasks: 215 total,   9 running, 206 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 78.1 us, 21.9 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1987.8 total,     95.1 free,   1424.0 used,    468.7 buff/cache
-MiB Swap:    448.5 total,    397.8 free,     50.7 used.    381.6 avail Mem 
+top - 17:45:48 up 38 min,  1 user,  load average: 0.10, 0.57, 0.68
+Tasks: 187 total,   1 running, 186 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.3 us,  4.8 sy,  0.0 ni, 61.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1987.8 total,    126.7 free,   1390.8 used,    470.3 buff/cache
+MiB Swap:    448.5 total,    388.2 free,     60.2 used.    416.6 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3867 jane      20   0  369164  21812  14676 R  29.2   1.1   0:00.33 tracker+
-   3864 root      20   0   16424   6052   5248 S  25.0   0.3   0:00.45 systemd+
-   1628 simar     20   0 3633684 257636  80484 S   8.3  12.7   1:09.07 gnome-s+
-   1434 simar     20   0  229488  39792  21444 S   4.2   2.0   0:26.11 Xorg
-   3728 root      20   0   23468   4620   1640 R   4.2   0.2   0:00.04 systemd+
-   3911 jane      20   0   20476   3840   3132 R   4.2   0.2   0:00.03 top
-      1 root      20   0  102248   9816   7136 S   0.0   0.5   0:03.84 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+   4320 root      20   0   20476   3672   3220 R  14.3   0.2   0:00.05 top
+   1628 simar     20   0 3633684 248380  78064 S   4.8  12.2   1:33.94 gnome-+
+   2701 simar     20   0 2456044 158292 116636 S   4.8   7.8   0:12.43 Web Co+
+      1 root      20   0  102248   9672   7096 S   0.0   0.5   0:04.24 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthrea+
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
-      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+
-      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      7 root      20   0       0      0      0 I   0.0   0.0   0:00.19 kworker+
-      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+
-     10 root      20   0       0      0      0 S   0.0   0.0   0:00.51 ksoftir+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.55 rcu_sch+
-     12 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
-     13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_pa+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworke+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_per+
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.59 ksofti+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:01.75 rcu_sc+
+     12 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrat+
+     13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_i+
      14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
-     15 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtm+
      16 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
-     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_ta+
      18 root      20   0       0      0      0 S   0.0   0.0   0:00.06 kauditd
-     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungt+
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_re+
+     21 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeb+
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kcompa+
+     23 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
  
  
 Disk Usage
  
 Filesystem      Size  Used Avail Use% Mounted on
 udev            967M     0  967M   0% /dev
-tmpfs           199M  1.5M  198M   1% /run
+tmpfs           199M  1.4M  198M   1% /run
 /dev/sda5       9.3G  7.1G  1.8G  81% /
-tmpfs           994M   24M  971M   3% /dev/shm
+tmpfs           994M   22M  973M   3% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           994M     0  994M   0% /sys/fs/cgroup
 /dev/loop0       55M   55M     0 100% /snap/core18/1880
@@ -50,33 +50,32 @@ tmpfs           994M     0  994M   0% /sys/fs/cgroup
 /dev/loop6       30M   30M     0 100% /snap/snapd/8790
 /dev/sda1       511M  4.0K  511M   1% /boot/efi
 tmpfs           199M   24K  199M   1% /run/user/1000
-tmpfs           199M  8.0K  199M   1% /run/user/1002
  
  
 Network Statistics
  
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
-tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
-tcp        0      0 0.0.0.0:23              0.0.0.0:*               LISTEN      -                   
-tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
-tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -                   
-tcp6       0      0 :::22                   :::*                    LISTEN      -                   
-tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
-tcp6       0      0 :::33060                :::*                    LISTEN      -                   
-udp        0      0 0.0.0.0:631             0.0.0.0:*                           -                   
-udp        0      0 127.0.0.53:53           0.0.0.0:*                           -                   
-udp        0      0 0.0.0.0:54494           0.0.0.0:*                           -                   
-udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -                   
-udp6       0      0 :::50283                :::*                                -                   
-udp6       0      0 :::5353                 :::*                                -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      579/systemd-resolve 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      731/sshd: /usr/sbin 
+tcp        0      0 0.0.0.0:23              0.0.0.0:*               LISTEN      790/inetd           
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      621/cupsd           
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      749/mysqld          
+tcp6       0      0 :::22                   :::*                    LISTEN      731/sshd: /usr/sbin 
+tcp6       0      0 ::1:631                 :::*                    LISTEN      621/cupsd           
+tcp6       0      0 :::33060                :::*                    LISTEN      749/mysqld          
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           697/cups-browsed    
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           579/systemd-resolve 
+udp        0      0 0.0.0.0:54494           0.0.0.0:*                           618/avahi-daemon: r 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           618/avahi-daemon: r 
+udp6       0      0 :::50283                :::*                                618/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                618/avahi-daemon: r 
  
  
 Users logged-in
  
- 17:37:11 up 29 min,  1 user,  load average: 1.17, 0.57, 0.64
+ 17:45:48 up 38 min,  1 user,  load average: 0.10, 0.57, 0.68
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-simar    :0       :0               17:10   ?xdm?   6:25   0.03s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+simar    :0       :0               17:10   ?xdm?   8:17   0.03s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
  
  
