@@ -1,24 +1,23 @@
 CPU-Memory Usage
  
-top - 17:50:03 up 42 min,  1 user,  load average: 0.05, 0.33, 0.55
-Tasks: 186 total,   2 running, 184 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 36.4 us, 13.6 sy,  0.0 ni, 50.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1987.8 total,    124.9 free,   1387.4 used,    475.5 buff/cache
-MiB Swap:    448.5 total,    388.2 free,     60.2 used.    418.8 avail Mem 
+top - 17:50:49 up 43 min,  1 user,  load average: 0.31, 0.35, 0.54
+Tasks: 185 total,   1 running, 184 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.3 us, 19.0 sy,  0.0 ni, 47.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1987.8 total,    125.9 free,   1386.4 used,    475.5 buff/cache
+MiB Swap:    448.5 total,    388.2 free,     60.2 used.    419.9 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   4547 root      20   0   20476   3684   3232 R  15.8   0.2   0:00.04 top
-   1628 simar     20   0 3633684 248320  78068 S  10.5  12.2   1:40.02 gnome-+
-   1353 simar      9 -11 1753096  15000  12956 S   5.3   0.7   0:01.92 pulsea+
-   1434 simar     20   0  229488  38064  21444 S   5.3   1.9   0:40.38 Xorg
-      1 root      20   0  102248   9672   7096 S   0.0   0.5   0:04.38 systemd
+   4578 root      20   0   20476   3588   3132 R  15.8   0.2   0:00.04 top
+   1434 simar     20   0  229488  38064  21444 S  10.5   1.9   0:41.09 Xorg
+   1628 simar     20   0 3633684 248320  78068 S  10.5  12.2   1:41.44 gnome-+
+      1 root      20   0  102248   9672   7096 S   0.0   0.5   0:04.39 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthrea+
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_pa+
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworke+
       9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_per+
      10 root      20   0       0      0      0 S   0.0   0.0   0:00.60 ksofti+
-     11 root      20   0       0      0      0 R   0.0   0.0   0:01.83 rcu_sc+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:01.84 rcu_sc+
      12 root      rt   0       0      0      0 S   0.0   0.0   0:00.03 migrat+
      13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_i+
      14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
@@ -30,6 +29,7 @@ MiB Swap:    448.5 total,    388.2 free,     60.2 used.    418.8 avail Mem
      20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_re+
      21 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeb+
      22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kcompa+
+     23 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
  
  
 Disk Usage
@@ -74,8 +74,8 @@ udp6       0      0 :::5353                 :::*                                
  
 Users logged-in
  
- 17:50:03 up 42 min,  1 user,  load average: 0.05, 0.33, 0.55
+ 17:50:50 up 43 min,  1 user,  load average: 0.31, 0.35, 0.54
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-simar    :0       :0               17:10   ?xdm?   8:40   0.03s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+simar    :0       :0               17:10   ?xdm?   8:44   0.03s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
  
  
