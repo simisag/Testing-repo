@@ -39,4 +39,4 @@ echo "Files added"
 echo "Copying files to your system"
 echo "In Testing-repo"
 scp sys-usage_$dt.txt simar@10.0.2.4:/home/simar/Desktop/script/sys-usage_$dt,txt
-echo "File copied"
+echo "File is copied"
